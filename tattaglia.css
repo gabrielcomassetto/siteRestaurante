@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding:  0;
+}
+
+header{
+    background-color: #fdfcef;
+    display:flex;
+    height: auto;
+    border-bottom: 1px solid rgb(146, 185, 245);
+    width: 100%;
+    position: absolute;
+    top:0;
+    padding: 0 0 8px 0;
+}
+
+
+.menu a{
+    text-decoration: none;
+   display: inline-flex;
+    color: black;
+    margin-right: 8%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.menu a:hover{
+    color:blue;
+}
+
+.menu{
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+    
+}
+
+.logo{ 
+    color: black;
+    padding: 10px 0;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    left: 60px;
+    
+    }
+
+
+.banner{
+    position:relative;
+    width:100%;
+    padding:10px;
+
+}
+
+.rodape{
+  background-color:  #fdfcef;
+    height: 100%;
+    border-top: 1px solid rgb(146, 185, 245);
+    width: 100%;
+    margin:0;
+    padding:10px 0px 50px 0px;
+}
+.rodape h2{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    display: inline-flex;
+   position:unset;
+   margin-left: 40%;
+   margin-right: 30%;
+   
+}
+
+
+.social{
+    position:relative;
+    color:black;
+}
+
+.social ul li{
+display: inline-flex;
+padding:20px;
+margin-left: 5px;
+size:50px;
+}
+
+
+.layout{
+    background-image: url(https://i.postimg.cc/59vm32Cg/restaurante.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin-top: 70px;
+    transition: 500ms;
+}
+
+.layout h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 48px;
+    font-family: 'Dancing Script', cursive;    color: white;
+    font-size: calc(0.3em + 3.5vw);
+
+}
+
+.cardapiolay{
+    background-image: url(https://i.postimg.cc/43jg9Dc3/cardapio1.jpg);
+    background-size:contain;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height:100vh;
+    background-repeat: no-repeat;
+    margin-top: 75px;
+    transition: 500ms;
+}
+
+.container{
+    position: relative;
+    min-height:60vh;
+    margin-top: 8%;
+    transition: 500ms;
+    width: 20%;
+    left: 50%;
+    display: flex;
+    padding: 20px;
+    margin-left: 20px;
+    
+}
+
+.texto{
+    position: relative;
+    width: 50%;
+    height: 100px;
+    bottom: 700px;
+    left:150px;
+    text-align: center;
+
+       
+    
+}
+.texto h1{
+    position:relative;
+    font-size: calc(0.3em + 3vw);
+    font-family: 'Dancing Script', cursive;   
+    margin: 20px;
+    padding: 20px;
+    
+}
+.texto p{
+    position: relative;
+    font-size: calc(0.3em + 0.5vw);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    
+
+}
+.foto{
+    display: inline-block;
+    position: relative;
+    margin: 80px;
+    min-height:50vh;
+    width: 90%;
+    
+
+
+}
+.foto1{
+    display: flex;
+    width:250px;
+    height: 200px;
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/09/51/e8/7c/restaurante-italiano.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.foto2{
+    display: flex;
+    width:250px;
+    height: 200px;
+    background-image: url(https://st3.idealista.it/cms/archivie/styles/idcms_tablet/public/2018-10/media/image/favo_wikipedia.jpg?fv=Zf2vTqzb&itok=RTwwYEN3);
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative
+}
+.foto3{
+    display: flex;
+    width:250px;
+    height: 200px;
+    background-image: url(https://midias.agazeta.com.br/2020/07/24/vinho-tinto-285613-article.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative
+
+}
+.foto4{
+    display: flex;
+    width:250px;
+    height: 200px;
+    background-image: url(https://www.estudarfora.org.br/wp-content/uploads/2018/04/bolsas-do-governo-da-It%C3%A1lia-768x512.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: #c7c4bce0;
+    max-width: 500px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #000000;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    color: black;
+    font-weight: bold;
+}
+
+.enviar {
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.caixa{
+    padding: 10% 12% 20% 35%;
+    height: 100%;
+}
